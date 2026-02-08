@@ -1,9 +1,18 @@
-# DevTrack – Job Application Tracker
+# 🚀 DevTrack – Job Application Tracker
 
-Full-stack MERN application with JWT authentication and Docker support.
+Full-stack MERN application that helps developers track job applications, interviews and offers.
 
-## Tech Stack
+## 🧰 Tech Stack
 - React
-- Node.js / Express
-- MongoDB
-- Docker
+- Node.js + Express
+- MongoDB + Mongoose
+- JWT Authentication
+- Docker & Docker Compose
+- GitHub Actions CI
+
+## ✨ Features
+- User Registration & Login
+- Add / Delete Job Applications
+- Track Application Status
+- Secure REST API
+- One-command Docker setup
