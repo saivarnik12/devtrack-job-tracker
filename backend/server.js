@@ -1,4 +1,4 @@
-require("dotenv").config();
+ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
@@ -7,7 +7,6 @@ connectDB();
 
 const app = express();
 
-// allow Netlify frontend
 app.use(
   cors({
     origin: "https://69897fb0c288e6af30b51e00--lucky-malabi-856fb0.netlify.app",
