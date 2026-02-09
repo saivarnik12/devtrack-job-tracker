@@ -7,7 +7,7 @@ connectDB();
 
 const app = express();
 
-// ✅ Allow Netlify frontend to call backend
+// allow Netlify frontend
 app.use(
   cors({
     origin: "https://69897fb0c288e6af30b51e00--lucky-malabi-856fb0.netlify.app",
