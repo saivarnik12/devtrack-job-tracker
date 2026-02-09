@@ -7,9 +7,10 @@ connectDB();
 
 const app = express();
 
+/* ✅ FIXED CORS FOR PRODUCTION */
 app.use(
   cors({
-    origin: "https://69897fb0c288e6af30b51e00--lucky-malabi-856fb0.netlify.app",
+    origin: "*",
     credentials: true,
   })
 );
